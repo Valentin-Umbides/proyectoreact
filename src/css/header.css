@@ -1,0 +1,32 @@
+.navBarTop {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  height: 62px;
+}
+.navBarTop #logo {
+  position: absolute;
+  left: 10px;
+  cursor: pointer;
+}
+.navBarTop #logo #logoImg {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.navBarTop .divUl ul {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+}
+.navBarTop .divUl ul li {
+  margin: auto 10px;
+  cursor: pointer;
+}
+.navBarTop .divUl ul li a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=header.css.map */

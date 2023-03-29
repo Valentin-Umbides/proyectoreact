@@ -1,0 +1,37 @@
+.navBar {
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    user-select: none;
+
+    li {
+      margin: 0 5px;
+      transition: all 100ms;
+      cursor: pointer;
+      font-weight: bolder;
+
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+      }
+    }
+
+    li:hover,
+    a:hover {
+      scale: 1.03;
+      color: rgb(0, 0, 40)
+    }
+  }
+}

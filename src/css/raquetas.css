@@ -1,0 +1,50 @@
+.classMain h1 {
+  margin-top: 10px;
+}
+.classMain .page {
+  text-align: center;
+  font-weight: 800;
+}
+.classMain .classsection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1220px;
+  margin: 0 auto;
+}
+.classMain .classsection .card {
+  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  width: 220px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "1" "2" "3" "4";
+  border-radius: 8px;
+}
+.classMain .classsection .card img {
+  width: 200px;
+  height: 200px;
+  margin: 0 10px;
+  margin-top: 5px;
+  object-fit: contain;
+  user-select: none;
+}
+.classMain .classsection .card h4 {
+  font-weight: 800;
+  margin: 0 5px;
+}
+.classMain .classsection .card a {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}/*# sourceMappingURL=raquetas.css.map */

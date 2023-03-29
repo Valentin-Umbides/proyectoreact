@@ -1,0 +1,58 @@
+.classMain {
+    h1 {
+        margin-top: 10px;
+    }
+    .page {
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .classsection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1220px;
+        margin: 0 auto;
+
+        .card {
+            border: 2px solid black;
+            width: fit-content;
+            height: fit-content;
+            width: 220px;
+            height: 300px;
+            margin: 10px;
+            text-align: center;
+            display: grid;
+            grid-template-areas: 
+            "1" "2" "3" "4";
+            border-radius: 8px;
+
+            img {
+                width: 200px;
+                height: 200px;
+                margin: 0 10px;
+                margin-top: 5px;
+                object-fit: contain;
+                user-select: none;
+            }
+
+            h4 {
+                font-weight: 800;
+                margin: 0 5px;
+            }
+
+            a {
+                background-color: black;
+                color: white;
+                width: fit-content;
+                height: fit-content;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                padding: 3px;
+                border-radius: 8px;
+                cursor: pointer;
+                user-select: none;
+                text-decoration: none;
+            }
+        }
+    }
+}

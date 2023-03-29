@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "BLADE 98 V8.0",
+        "precio": "$35000",
+        "img": "raqueta1.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "BURN 100 CV",
+        "precio": "$37000",
+        "img": "descarga.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "CLASH 98 V2",
+        "precio": "$38000",
+        "img": "raqueta3.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Raqueta Pure Aero",
+        "precio": "$40000",
+        "img": "raqueta4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Raqueta Pure Drive",
+        "precio": "$40000",
+        "img": "raqueta5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Raqueta Pure Aero Nadal",
+        "precio": "$40000",
+        "img": "raqueta6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Raqueta Pure Strike 100",
+        "precio": "$40000",
+        "img": "raqueta7.png"
+    }
+]
