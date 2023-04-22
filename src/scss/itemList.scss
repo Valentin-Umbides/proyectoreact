@@ -1,4 +1,4 @@
-.classMain {
+.ItemListContainer {
     h1 {
         margin-top: 10px;
     }
@@ -10,7 +10,8 @@
     .classsection {
         display: flex;
         flex-wrap: wrap;
-        width: 1220px;
+        max-width: 1300px;
+        justify-content: center;
         margin: 0 auto;
 
         .card {

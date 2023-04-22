@@ -1,23 +1,23 @@
 import React from 'react';
-import Raquetas from '../json/raquetas.json';
-import '../css/producto.css';
-import { Header } from '../components/Header';
+import Items from '../json/items.json';
+import '../css/itemDetail.css';
+import { Header } from '../components/NavBar';
 
-export const Producto = () => {
+export const ItemDetail = () => {
   return (
     <>
       <Header />
-      <main id="productoMain">
+      <main id="ItemDetailContainer">
         {
-          Raquetas.map(item => {
-            if (window.location.pathname.includes(`raquetas/producto/_${item.id}.`)) {
+          Items.map(item => {
+            if (window.location.pathname.includes(`_${item.tipo}./producto/_${item.id}.`)) {
               return (
                 <div id="item" key={item.id}>
                   <img src={require(`../img/${item.img}`)}></img>
-                  <div id='info'>
+                  <div id='description'>
                     <h1 id="titulo">{item.nombre}</h1>
                     <h2 id="precio">{item.precio}</h2>
-                    <button>Comprar</button>
+                    <button id="addItemButton">Comprar</button>
                   </div>
                 </div>
               )
@@ -26,5 +26,6 @@ export const Producto = () => {
         }
       </main>
     </>
+    
   )
 }

@@ -1,4 +1,4 @@
-#productoMain {
+#ItemDetailContainer {
     width: 100%;
     height: calc(100% - 62px);
     display: flex;
@@ -21,7 +21,7 @@
             user-select: none;
         }
 
-        #info {
+        #description {
             display: flex;
             justify-content: center;
             align-items: center;
